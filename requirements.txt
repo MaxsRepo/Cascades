@@ -1,5 +1,5 @@
 nextcord
 asyncio
 python-dotenv
-yaml
+pyyaml
 logging42
