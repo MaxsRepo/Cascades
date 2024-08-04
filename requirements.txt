@@ -1,0 +1,7 @@
+nextcord
+asyncio
+os
+sys
+python-dotenv
+yaml
+logging42
