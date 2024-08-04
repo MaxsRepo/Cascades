@@ -1,0 +1,57 @@
+#
+# Cascades Config YAML
+# 
+# Copyright (c) 2024 Max Castle
+#
+#              _
+#             / \
+#            /{C}\
+#            \___/
+#
+#
+
+# Guild Related Info
+# (Info about the guild the bot will be used in, such as guild name, role id's, etc.)
+
+bot-name: ""
+
+# Name of your Guild
+guild_name: ""
+
+# Role ID for ticket pings
+mod_role: ""
+
+# Role ID for Owner + sudoers.
+# (People who can start/stop/access bot files and/or if hosting through, Pterodactyl Panel)
+owner_role: ""
+sudoers:
+  - ""
+
+# Logs channel ID
+logschannel: ""
+punishments: ""
+ticket_channel: ""
+transcripts: ""
+
+# Owner of the guild
+# (By this, I mean the official owner of the Guild, not someone with an owner role)
+# guild_owner is the USER ID of the owner.
+guild_owner: ""
+owner_username: ""
+
+# Server invite link
+invite_link: ""
+
+# Permission error messages
+noperm_admin: "You are not an Admin. Shush."
+noperm_mod: "You are not a Moderator. Shush."
+
+# Credits.
+# (If you have modified your code in your instance, please say you have added a part yourself)
+creditmsg: "# Cascades Software #\n**Credits**\n- MaxsRepo on GitHub (Discord: .maxci)\n- TheKrafter/Tulip SMP\n*Look at the [license](https://github.com/MaxsRepo/Cascades/blob/main/LICENSE) for more info.*"
+
+# Use the extensions feature?
+# (Please use 'true' or 'false with NO CAPITALS')
+extensions: 'true'
+
+# End of config. To add the bot token, go to cascades.env
