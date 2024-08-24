@@ -36,11 +36,13 @@ def wfm(warned: str, moderator: str, msgcontent: str, icon: str, dispmod: str):
 def guildinfo(name: str):
     mod = f"<@&{config.modrole}>"
     owner = f"<@&{config.ownerrole}>"
+    invlnk = config.invite
     embed = nextcord.Embed(title="ℹ️ Guild Information ℹ️")
     embed.set_author(name=config.guildname)
     embed.add_field(name="Guild ID:", value=name)
     embed.add_field(name="Guild Owner:", value=f"<@{config.guildowner}> ||{config.owneruser} (id: {config.guildowner})||")
     embed.add_field(name="Owner Role:", value=owner)
     embed.add_field(name="Moderator Role:", value=mod)
+    embed.add_field(name="Invite link:", value=invlnk)
     embed.set_footer(text="Guild Info for this bot.")
     return embed
