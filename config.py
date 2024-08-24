@@ -16,7 +16,7 @@ def gettoken():
 # Guild info
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-botname = cfg['bot_name']
+botname = cfg['bot-name']
 
 guildname = cfg['guild_name']
 
